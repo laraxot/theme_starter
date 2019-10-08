@@ -1,4 +1,10 @@
 let mix = require('laravel-mix');
+require('dotenv').config(
+{
+  path:__dirname+'/../../../../.env'
+}
+);
+/*
 mix.webpackConfig(webpack => {
     return {
         plugins: [
@@ -8,9 +14,9 @@ mix.webpackConfig(webpack => {
         ]
     };
 });
+*/
 
-
-
+//console.log(process.env);
 
 require('laravel-mix-polyfill');
 
@@ -45,6 +51,7 @@ mix.extract([
 ]);
 mix.version();
 
+console.log('MIX_PUBLIC_FOLDER');
 console.log(process.env.MIX_PUBLIC_FOLDER);
 
 mix.setResourceRoot('../../../../')
