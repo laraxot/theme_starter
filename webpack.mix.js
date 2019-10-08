@@ -42,7 +42,7 @@ mix.js(src+'/js/auth.js', dest+'/js')
 	.sass(src+'/sass/auth.scss', dest+'/css',{ outputStyle: 'expanded' });
   
 mix.js(src+'/js/app.js', dest+'/js')
-   .sass(src+'/sass/app.scss', dest+'/css');
+   .sass(src+'/sass/app.scss', dest+'/css',{ outputStyle: 'expanded' });
 
 mix.extract([
    'jquery', 'raphael',
