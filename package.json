@@ -60,7 +60,7 @@
     "vue-functional-data-merge": "^3.1.0",
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10",
-    "vuetify": "^2.1.0"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
